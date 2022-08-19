@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.root_body {
+  position: fixed;
+  height: 100%;
+  width: 100% ;
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;
+  /* 垂直置中 */
+  align-items: center;
+}
+
+.Bgm_green {
+  position: fixed;
+  top: 0vh;
+  top: 50%;  
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img.background-image {
+  width: 1920px;
+  height: 1080px;
+  /* padding: 67.9px 247.4px 44.6px 244.6px; */
+  /* object-fit: contain;*/
+}
+
+img.Stall-image-green {
+  width: 1428px;
+  height: 966.2px;
+  margin: 0.2px 0 1px;
+  /* padding: 57.6px 48.2px 39.8px 51.3px; */
+  /* object-fit: contain; */
+}
+
+img.InvalidName-img{
+  position: fixed;
+  top: 392.7px;
+  left: 325px;
+  height: 399.6px;
+  width: 713.7px;
+}
+
+img.InvalidName1-img{
+  position: fixed;
+  top: 418.8px;
+  left: 51.3px;
+  height: 170.2px;
+  width: 170.2px;
+}
+
+img.InvalidName2-img{
+  position: fixed;
+  top: 57.6px;
+  left: 399.8px;
+  height: 81.9px;
+  width: 124.9px;
+}
+
+img.AcrImage-img{
+  position: fixed;
+  top: 407px;
+  left: 1106.6px;
+  height: 353.8px;
+  width: 273.1px;
+}
+
+.back_btn{
+  position: fixed;
+  top: 0.2px;
+  left: 32.4px;
+  height: 66.7px;
+  width: 66.7px;
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+  background: transparent;
+}
+
+img.Back-img{
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 66.7px;
+  width: 66.7px;
+}

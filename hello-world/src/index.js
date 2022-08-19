@@ -2,12 +2,45 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Bgm from './asset/image/background image.jpg';
+import Bgm_green from './asset/image/Stall image green.png';
+import InvalidName from './asset/image/invalid-name.png';
+import InvalidName1 from './asset/image/invalid-name1.png';
+import InvalidName2 from './asset/image/invalid-name2.png';
+import AcrImage from './asset/image/Acr image.png';
+
+import Back from './asset/image/back.png';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const getvalue = (value) => {
+  console.log('one');
+setTimeout(function() {
+  console.log('two');
+}, 0);
+console.log('three');
+}
+getvalue();
+
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="root_body">
+      <img src={Bgm} className="background-image" alt='Bgm'></img>
+      <div className="Bgm_green" >
+        <img src={Bgm_green} alt="Bgm_green" className="Stall-image-green"></img>
+        <div>
+          <img src={InvalidName} alt="InvalidName" className="InvalidName-img"></img>
+          <img src={InvalidName1} alt="InvalidName1" className="InvalidName1-img"></img>
+          <img src={InvalidName2} alt="InvalidName2" className="InvalidName2-img"></img>
+          <img src={AcrImage} alt="AcrImage" className="AcrImage-img"></img>
+          <button className="back_btn">
+            <img src={Back} alt="Back" className="Back-img"></img>
+          </button>
+        </div>
+      </div>
+    </div>
   </React.StrictMode>
 );
 
