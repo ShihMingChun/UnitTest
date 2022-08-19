@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  overflow: scroll;
+  height: 100vh;
+  max-height: 5000px;
 }
 
 code {
@@ -14,8 +18,8 @@ code {
 
 .root_body {
   position: fixed;
-  height: 100%;
-  width: 100% ;
+  top: 0;
+  width: 100vw ;
   display: flex;
   /* 水平置中 */
   justify-content: center;
@@ -31,8 +35,8 @@ code {
 }
 
 img.background-image {
-  width: 1920px;
-  height: 1080px;
+  width: 100vw;
+  height: 100vh;
   /* padding: 67.9px 247.4px 44.6px 244.6px; */
   /* object-fit: contain;*/
 }
