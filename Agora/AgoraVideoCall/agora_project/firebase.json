@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "site": "agora-videocall",
+    "public": "dist",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
